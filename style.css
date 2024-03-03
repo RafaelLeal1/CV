@@ -1,0 +1,358 @@
+/* Redefinição de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif; /* Specify a clear font */
+}
+
+/* General styles */
+a {
+    color: #006633;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #FFCC00;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+main {
+    margin-left: 2vw;
+}
+
+header h1,
+header p {
+    color: #fff;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+header ul.contato,
+nav ul {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+header ul.contato li,
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+header ul.contato li a,
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+    
+}
+
+
+header ul.contato li a:hover,
+nav ul li a:hover {
+    color: #FFCC00;
+}
+
+/* Navigation */
+nav {
+    background-color: #003366;
+    padding: 1rem;
+}
+
+/* Sections */
+section {
+    padding: 1rem;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    padding: 0;
+    margin: 0;
+}
+
+section ul li {
+    margin-bottom: 1rem;
+}
+
+section ul li i {
+    margin-right: 0.5em;
+    color: #006633;
+}
+
+/* Apresentação */
+#apresentacao {
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: space-between;
+    line-height: 4vh;
+    
+}
+
+#apresentacao p {
+    font-size: 18px;
+}
+
+#apresentacao ul {
+    margin-top: 1rem;
+}
+
+#apresentacao ul li {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#apresentacao ul li a {
+    color: #006633;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#apresentacao ul li a:hover {
+    color: #FFCC00;
+}
+
+/* Educação */ 
+#educacao {
+    text-align: justify;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 4vh;
+} 
+
+#educacao li {
+    width: 45%;
+    margin-bottom: 1rem;
+}
+
+#educacao li h3 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+#educacao li p {
+    font-size: 16px;
+}
+
+/* Experiência */
+
+#experiencia {
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: space-between;
+    line-height: 4vh;
+    
+} 
+
+#experiencia li {
+    width: 45%;
+    margin-bottom: 1rem;
+}
+
+#experiencia li h3,
+#experiencia li h4 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+#experiencia li p {
+    font-size: 16px;
+}
+
+#experiencia li ul {
+    margin-top: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+#experiencia li ul li {
+    margin-bottom: 0.5rem;
+    word-spacing: -0.1rem;
+
+}
+
+#experiencia li ul li i {
+    margin-right: 0.5rem;
+    color: #006633;
+}
+
+/* Habilidades */
+#habilidades {
+    text-align: center;
+}
+
+#habilidades ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+#habilidades ul li {
+    margin: 0.5rem;
+}
+
+#habilidades ul li i {
+    font-size: 24px;
+    color: #006633;
+    margin-bottom: 0.5rem;
+}
+
+#habilidades ul li p {
+    font-size: 16px;
+}
+
+/* Certificações */
+#certificacoes {
+    text-align: justify;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 2.8vh;
+} 
+
+#certificacoes li {
+    width: 45%;
+    margin-bottom: 1rem;
+}
+
+#certificacoes li strong {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+#certificacoes li p {
+    font-size: 16px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003366;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+footer ul li a:hover {
+    color: #FFCC00;
+}
+
+/* Barras de proficiência */
+.proficiência {
+    background-color: #ddd;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.proficiência-valor {
+    background-color: #006633;
+    height: 10px;
+    transition: 0.3s;
+}
+
+section#svg {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2rem;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+#svg svg:first-child {
+    margin-right: 20px; 
+}
+
+#svg svg:not(:first-child) {
+    margin-left: 10px; /* Espaçamento de 10 pixels entre os ícones */
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Ajustes para telas menores */
+    header h1 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    #experiencia,
+    #educacao {
+        flex-direction: left;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Ajustes para telas muito pequenas */
+    header ul.contato {
+        display: none;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    
+}
